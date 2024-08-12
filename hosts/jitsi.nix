@@ -44,7 +44,7 @@ in {
 
   # This specifies what packages are available in your system. You can choose
   # from over 100,000 - search for them here:
-  #   https://search.nixos.org/packages?channel=unstable&size=30&sort=relevance&type=packages
+  #   https://search.nixos.org/options?channel=24.05
   environment.systemPackages = [
     pkgs.htop
   ];
