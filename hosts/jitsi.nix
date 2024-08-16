@@ -7,7 +7,7 @@ let # This lets you log in via SSH
     #    jitsi.<BRANCH>.<REPONAME>.<GITHUB ORG/USER>.garnix.me
     # It can also be a custom domain. In that case, set up a CNAME to the above
     # domain.
-    host = "jitsi.main.jitsi.garnix-io.garnix.me";
+    host = "jitsi.main.template-jitsi.garnix-io.garnix.me";
 in {
   # This sets up networking and filesystems in a way that works with garnix hosting
   garnix.server.enable = true;
